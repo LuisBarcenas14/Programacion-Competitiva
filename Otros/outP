@@ -1,0 +1,9 @@
+s(tablero(A, B, C, D, E, F, ' ', G, H), tablero(A, B, C, ' ', E, F, D, G, H)).
+s(tablero(A, B, C, D, E, F, ' ', G, H), tablero(A, B, C, D, E, F, G, ' ', H)).
+
+s(tablero(A, B, C, D, E, F, G, ' ', H), tablero(A, B, C, D, E, F, ' ', G, H)).
+s(tablero(A, B, C, D, E, F, G, ' ', H), tablero(A, B, C, D, ' ', F, G, E, H)).
+s(tablero(A, B, C, D, E, F, G, ' ', H), tablero(A, B, C, D, E, F, G, H, ' ')).
+
+s(tablero(A, B, C, D, E, F, G, H, ' '), tablero(A, B, C, D, E, ' ', G, H, F)).
+s(tablero(A, B, C, D, E, F, G, H, ' '), tablero(A, B, C, D, E, F, G, ' ', H)).
